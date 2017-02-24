@@ -126,6 +126,7 @@ Void MotorFxn(UArg arg0, UArg arg1)
 
 	    G_CTRL_REG.RSTEP = 0x01;
 
+	    Task_sleep((UInt) arg0);
 
 		}
 }
